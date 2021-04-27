@@ -258,7 +258,6 @@ app.post("/issues", function (req, res) {
 
 });
 
-
 app.listen(process.env.PORT, function () {
   console.log("The server has started successfully!");
 });
