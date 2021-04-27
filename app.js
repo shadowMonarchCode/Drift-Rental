@@ -257,7 +257,7 @@ app.post("/issues", function (req, res) {
   });
 
 });
-
-app.listen(process.env.PORT, function () {
+process.env.PORT
+app.listen(3000, function () {
   console.log("The server has started successfully!");
 });

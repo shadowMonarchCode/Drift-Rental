@@ -25,18 +25,18 @@
       </div>
       <form action="/login" method="POST" class="input-login-group" id="logIn">
         <input type="text" class="input-field" name="username" placeholder="User Name" required autocomplete="off" maxlength="8">
-        <input type="text" class="input-field" name="password" placeholder="Password" required autocomplete="off">
+        <input type="password" class="input-field" name="password" placeholder="Password" required autocomplete="off">
         <input type="checkbox" class="check-box"><span>Remember me</span>
         <button type="submit" class="submit-btn">Log In</button>
 
       </form>
       <form action="/Register" method="POST" class="input-group" id="signUp">
         <input type="text" class="input-field" name="username" placeholder="User Name" required autocomplete="off" maxlength="8">
-        <input type="text" class="input-field" name="password" placeholder="Password" required autocomplete="off">
+        <input type="password" class="input-field" name="password" placeholder="Password" required autocomplete="off">
         <input type="text" class="input-field" name="firstName" placeholder="First Name" required autocomplete="off">
-        <input type="text" class="input-field" name="lastName" placeholder="Last Name">
+        <input type="text" class="input-field" name="lastName" placeholder="Last Name" autocomplete="off">
         <input type="text" class="input-field" name="aadharNo" placeholder="Aadhar Number" required autocomplete="off">
-        <input type="number" class="input-field" name="contact" placeholder="Contact Number" required autocomplete="off">
+        <input type="tel" class="input-field" name="contact" placeholder="Contact Number" required autocomplete="off">
         <input type="text" class="input-field" name="address" placeholder="Address" required autocomplete="off">
         <input type="email" class="input-field" name="email" placeholder="Email" required autocomplete="off">
         <!-- <input type="checkbox" class="check-box" required autocomplete="off" checked><span>I agree to the terms and conditions.</span> -->
@@ -51,13 +51,13 @@
     var z = document.getElementById("btn");
 
     function signUp() {
-      x.style.left = "-400px";
-      y.style.left = "50px";
+      x.style.left = "-330px";
+      y.style.left = "30px";
       z.style.left = "127px";
     }
     function logIn() {
-      x.style.left = "50px";
-      y.style.left = "400px";
+      x.style.left = "30px";
+      y.style.left = "330px";
       z.style.left = "0px";
     }
 

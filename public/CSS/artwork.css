@@ -228,8 +228,8 @@ footer{
   }
 
   .form-box{
-    width: 380px;
-    height: 580px;
+    width: 290px;
+    height: 540px;
     position: relative;
     margin: 6% auto;
     background: #fff;
@@ -271,7 +271,7 @@ footer{
   .input-login-group{
     top: 200px;
     position: absolute;
-    width: 280px;
+    width: 230px;
     transition: .5s;
     text-align: center;
     align-self: baseline;
@@ -279,7 +279,7 @@ footer{
 
   .input-group{
     position: absolute;
-    width: 280px;
+    width: 230px;
     transition: .5s;
   }
 
@@ -296,12 +296,11 @@ footer{
   }
 
   .submit-btn{
-    top: 50px;
     width: 85%;
     padding: 10px 28px;
     cursor: pointer;
     display: block;
-    margin: auto ;
+    margin: 10px auto ;
     background: linear-gradient(to right, #0278AE, #92C5DC);
     border: 0;
     outline: none;
@@ -312,20 +311,13 @@ footer{
     margin: 30px 10px 30px 0;
   }
 
-  /* span{
-    color: #777;
-    font-size: 12px;
-    margin-top: 27.5px;
-    position: relative;
-    font-family: sans-serif;
-  } */
 
   #logIn{
-    left: 50px;
+    left: 30px;
   }
 
   #signUp{
-    left: 450px;
+    left: 330px;
   }
 
   /* ---------------------------------------- signout.ejs ---------------------------------------- */
@@ -368,6 +360,7 @@ footer{
 /* rent page */
 #rent-form{
   margin-bottom: 50px;
+  text-align: center;
 }
 #top{
   background-color: #0278ae;
@@ -377,18 +370,12 @@ footer{
 }
 
 .car-details{
-  padding-left: 60%;
-  padding-top: 5%;
+  padding: 4%;
+  text-align: center;
 }
 
 .rent-car{
-  width: 80%;
-}
-
-@media only screen and (max-width: 400px){
-  .rent-car{
-    width: 265px;
-  }
+  width: 100%;
 }
 
 .rent-form-head{
