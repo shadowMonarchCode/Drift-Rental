@@ -209,13 +209,6 @@ footer{
   background-color: #0278ae;
 }
 
-/* message */
-.message{
-    position: absolute;
-    margin: 600px auto auto 88%;
-    z-index: 1;
-}
-
 
 /* ---------------------------------------- register.ejs ---------------------------------------- */
 .hero{
