@@ -396,7 +396,7 @@ footer{
     border: 0;
     outline: none;
     border-radius: 30px;
-
+    color: white;
 }
 
 .user-field{
@@ -421,11 +421,6 @@ footer{
 #jumbotron{
   background-color: rgb(220, 234, 253) ;
   text-align: center;
-}
-
-
-#bookAnother{
-  color: black;
 }
 
 /* ---------------------------------------------------Date input in rent.ejs------------------------------------------------------*/
